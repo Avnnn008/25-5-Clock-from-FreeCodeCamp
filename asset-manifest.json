@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac49593d.css",
-    "main.js": "/static/js/main.28840890.js",
-    "index.html": "/index.html",
-    "main.ac49593d.css.map": "/static/css/main.ac49593d.css.map",
-    "main.28840890.js.map": "/static/js/main.28840890.js.map"
+    "main.css": "/Avnnn008/SessionAndBreakTimer/static/css/main.ac49593d.css",
+    "main.js": "/Avnnn008/SessionAndBreakTimer/static/js/main.28840890.js",
+    "index.html": "/Avnnn008/SessionAndBreakTimer/index.html",
+    "main.ac49593d.css.map": "/Avnnn008/SessionAndBreakTimer/static/css/main.ac49593d.css.map",
+    "main.28840890.js.map": "/Avnnn008/SessionAndBreakTimer/static/js/main.28840890.js.map"
   },
   "entrypoints": [
     "static/css/main.ac49593d.css",
