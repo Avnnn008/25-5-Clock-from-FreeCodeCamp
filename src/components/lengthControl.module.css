@@ -1,0 +1,22 @@
+.label {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  
+  .label::first-letter {
+    text-transform: uppercase;
+  }
+
+  .buttonsLine {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   font-weight: bold;
+  }
+
+  .length {
+    font-size: 1rem;
+  }
+
+

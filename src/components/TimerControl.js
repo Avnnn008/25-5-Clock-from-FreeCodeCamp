@@ -6,6 +6,7 @@ import {
   setDefault,
   setTimer,
 } from "../redux/appSlice";
+import s from './timerControl.module.css'
 
 export const TimerControl = () => {
   const selector = useSelector((state) => state.appSliceReducer);
@@ -43,15 +44,15 @@ export const TimerControl = () => {
   };
 
   return (
-    <div id="timer-control">
-      <button id="start_stop" onClick={startStopHandler}>
+    <div className={s.timerControl}>
+      <button onClick={startStopHandler}>
         {!isStart ? (
           <i className="fa-solid fa-pause" />
         ) : (
           <i className="fa-solid fa-play" />
         )}
       </button>
-      <button id="reset" onClick={resetHandler}>
+      <button onClick={resetHandler}>
         <i className="fa-solid fa-arrows-rotate" />
       </button>
     </div>

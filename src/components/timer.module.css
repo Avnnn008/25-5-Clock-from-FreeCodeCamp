@@ -1,0 +1,19 @@
+.timer {
+    width: 90vw;
+    max-width: 300px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: linear-gradient(white, rgba(187, 187, 238, 0.486) 80%);
+    box-shadow: 0 0 20px var(--dark-blue-color);
+  }
+
+  .label {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .timeLeft {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
